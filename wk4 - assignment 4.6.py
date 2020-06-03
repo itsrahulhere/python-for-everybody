@@ -7,11 +7,11 @@ def computepay(h,r):
     else:
         return h*r
 
-hrs = raw_input("Enter Hours:")
-rate = raw_input("Enter Rate:")
+hrs = input("Enter Hours:")
+rate = input("Enter Rate:")
 
 hrs = float(hrs)
 rate = float(rate)
 
 p = computepay(hrs, rate)
-print p
+print ("Pay", p)
